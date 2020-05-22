@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+    /* border-left: 1px solid #ac94eb; */
+}
+
+header {
+    padding: 15px;
+    background-color: #ebdede;
+}
+
+.clear {
+    clear: both;
+}
+
+header .logo {
+    float: left;
+    width: 15%;
+}
+
+header .menu {
+    float: left;
+    width: 65%;
+    margin: 20px 0;
+}
+
+header .logo a img {
+    width: 100px;
+}
+
+header .menu ul>li {
+    float: left;
+    list-style: none;
+}
+header .menu ul>li a {
+    padding: 5px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: coral;
+    font-weight: 700;
+}
+
+header .menu ul>li a:hover {
+    color: black;
+}
+
+header .menu ul>li a.active {
+    color: black;
+}
+
+header .tel {
+    float: left;
+    width: 20%;
+    margin: 20px 0;
+    text-align: right;
+}
+
+header .tel>a {
+    
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+
+section.home_section {
+    min-height: calc(100vh - 109px - 59px);
+    background-color: #ffd6ca;
+    color: #004262;
+}
+
+
+
+
+
+section.home_section h1{
+    margin-bottom: 20px;
+    color: orangered;
+}
+
+
+
+section div.container {
+    border-left: 1px solid #ac94eb;
+    border-right: 1px solid #ac94eb;
+}
+
+section div.content {
+    border-right: 1px solid #ac94eb;
+    padding: 15px;
+    float: left;
+    width: 80%;
+    
+}
+
+section div.content p {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px dotted #f00;
+    color: brown;
+    font-size: 25px;
+}
+
+section div.sidebar {
+    float: left;
+    width: 20%;
+    /* background-color: bisque; */
+}
+
+section div.sidebar ul {
+    list-style: none;
+    text-align: center;
+}
+
+section div.sidebar ul li {
+    margin-bottom: 25px;
+    /* border-top: 1px solid #ac94eb; */
+    border-bottom: 1px solid #ac94eb;
+    padding: 15px 10px;
+    background-color: blanchedalmond;
+    
+}
+
+section div.sidebar ul a {
+    color: crimson;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+footer {
+    background: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
